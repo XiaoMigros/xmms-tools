@@ -32,7 +32,7 @@
 
 ### Smart add slurs
 - Automatically adds slurs to the selected passage of music, stopping at rests.
-- Requires MuseScore 3 or 4
+- Requires MuseScore 4.6 or later
 
 ### Smart tie placement
 - Switches all ties within chords to inside placement, all others to outside placement
