@@ -30,7 +30,7 @@
 - Requires MuseScore 3 or 4
 
 ### Smart add slurs
-- Add slurs to selections of music, without going over rests
+- Automatically adds slurs to the selected passage of music, stopping at rests.
 - Requires MuseScore 3 or 4
 
 ### Smart tie placement
@@ -43,10 +43,6 @@
 - Optional special rules for the first page
 - Choose between various spacing density settings
 - Requires MuseScore 4.6 or later
-
-### Lock System Distribution
-- This plugin freezes the current measures per system and systems per page
-- It respects existing layout breaks
 
 ### Split Measure Across System
 - Easily create a measure that spans over more than one system with the help of this plugin
