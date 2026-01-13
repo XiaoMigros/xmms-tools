@@ -4,6 +4,10 @@
 
 ## Included plugins:
 
+### Add repeats around selection
+- Select a range of music and apply repeat barlines around it
+- Requires MuseScore 4.6 or later
+
 ### Align ottavas
 - Horizontally align 8va markings over accidentals and/or grace notes
 - Applies to a selection or the whole score
