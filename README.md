@@ -15,6 +15,10 @@
 - Customiseable note limit to avoid long ties
 - Requires MuseScore 3 or 4
 
+### Fix to line
+- Fix notes to specific lines
+- Requires MuseScore 4.4 or later
+
 ### ReBeamer
 - Automatically rebeam music
 - Option to beam over rests
