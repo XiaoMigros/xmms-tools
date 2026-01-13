@@ -13,7 +13,7 @@
 - Automatically add slurs over dashed lyrics
 - Don't add slurs for ties
 - Customiseable note limit to avoid long ties
-- Requires MuseScore 3 or 4
+- Requires MuseScore 4.6 or later
 
 ### [Fix to line](https://musescore.org/project/fix-line)
 - Re-adds the fix to line feature from previous MuseScore editions
