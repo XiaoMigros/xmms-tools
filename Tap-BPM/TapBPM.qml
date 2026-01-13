@@ -38,9 +38,9 @@ MuseScore {
                 var cursor = curScore.newCursor()
                 cursor.inputStateMode = Cursor.INPUT_STATE_SYNC_WITH_SCORE
                 if (cursor.segment) {
-                    for (var i in cursor.segment.annotations) {
-                        if (cursor.segment.annotations[i].type == Element.TEMPO_TEXT) {
-                            tempoElement = cursor.segment.annotations[i]
+                    for (var e of cursor.segment.annotations) {
+                        if (e.type == Element.TEMPO_TEXT) {
+                            tempoElement = e
                             stop()
                             return
                         }
@@ -183,7 +183,7 @@ MuseScore {
     }
 
     function writeTempo() {
-        curScore.startCmd()
+        curScore.startCmd("Apply tapped tempo")
         //tempoElement.text = tempoElement.text.replace (/= \b\d+\b/g, "= " + bpmField.currentText)
         var bpmLocateRegEx = /=[^="]*?(\d*(\.|,))?\d+/g
         var locatedBPMstring = tempoElement.text.match(bpmLocateRegEx)[0]
