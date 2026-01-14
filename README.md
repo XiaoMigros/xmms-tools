@@ -57,6 +57,7 @@
 ### [Tap BPM](https://musescore.org/en/project/tap-bpm)
 - Select a BPM marking in your score, and tap the tempo
 - The BPM marking will be adjusted automatically
+- Requires MuseScore 4
 
 ## Installation
 
