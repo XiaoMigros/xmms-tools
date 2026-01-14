@@ -8,9 +8,11 @@ MuseScore {
 
     onRun: {
         if (curScore.selection.isRange) {
-            var startM = curScore.selection.startSegment.parent
-            var endM = curScore.tick2measure(curScore.selection.endSegment.fraction.minus(fraction(1, 4 * division)))
-            addRepeats(startM, endM)
+            if (curScore.selection.endSegment) {
+                addRepeats(curScore.selection.startSegment.parent, curScore.tick2measure(curScore.selection.endSegment.fraction.minus(fraction(1, 4 * division))))
+            } else {
+                addRepeats(curScore.selection.startSegment.parent, curScore.lastMeasure)
+            }
         } else if (curScore.selection.elements.length) {
             var startTick = curScore.lastMeasure.tick.plus(curScore.lastMeasure.ticks)
             var endTick = fraction(0, 1)
