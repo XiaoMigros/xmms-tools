@@ -19,6 +19,10 @@
 - Customiseable note limit to avoid long ties
 - Requires MuseScore 4.6 or later
 
+### Rehearsal mark aligner
+- Aligns rehearsal marks at the left of the measure
+- Requires MuseScore 4.6 or later
+
 ### [Fix to line](https://musescore.org/project/fix-line)
 - Re-adds the fix to line feature from previous MuseScore editions
 - Fix notes to specific lines
