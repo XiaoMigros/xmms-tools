@@ -28,6 +28,11 @@
 - Fix notes to specific lines
 - Requires MuseScore 4.4 or later
 
+### [Master Positioner](https://musescore.org/en/node/393678/)
+- See the absolute positions of elements on the page
+- Get precise coordinates for line ends and make easy adjustments
+- Requires MuseScore 4.7 or later
+
 ### [ReBeamer](https://musescore.org/en/project/rebeamer)
 - Automatically rebeam music
 - Option to beam over rests
@@ -72,7 +77,7 @@ Then follow the instructions for [MuseScore 3](https://musescore.org/en/handbook
 The plugins should then be available in the 'Plugins' tab.
 
 ## More plugins
-- Two of my plugins, Retrograde and Tuning and Temperaments, are included from MuseScore 4.6 and MuseScore 4.7 respectively.
+- Two of my plugins, 'Retrograde' and 'Tuning and Temperaments', are included from MuseScore 4.6 and MuseScore 4.7 respectively.
 - For more plugins, see my GitHub profile page.
 
 ## Reporting issues
